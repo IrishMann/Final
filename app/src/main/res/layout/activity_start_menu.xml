@@ -13,15 +13,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="67dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Mr. Lee was your favourite teacher last year."
         android:id="@+id/textView2"
         android:layout_alignBottom="@+id/textView"
@@ -33,7 +24,8 @@
         android:text="True"
         android:id="@+id/button"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="wrap_content"
